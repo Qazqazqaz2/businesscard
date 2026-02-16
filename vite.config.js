@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 // Если репозиторий называется username.github.io, используйте base: '/'
 // Для других репозиториев используйте base: '/имя_репозитория/'
-const repositoryName = process.env.REPOSITORY_NAME || 'business_card'
+const repositoryName = process.env.REPOSITORY_NAME || 'businesscard'
 
 export default defineConfig({
   plugins: [vue()],
@@ -14,3 +14,4 @@ export default defineConfig({
     sourcemap: false
   }
 })
+
